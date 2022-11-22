@@ -121,10 +121,10 @@ Private Sub Worksheet_Change(ByVal Target As Range)
         Application.EnableEvents = False
         For Z = 1 To Target.Count
             If Target(Z).Value > 0 Then
-                Call MoveTodouble_MVM_PT
-                Call MoveTodouble_MVM_NPT
-                Call MoveTotheta_T_mul_PT
-                Call MoveTotheta_T_mul_NPT
+                'Call MoveTodouble_MVM_PT
+                'Call MoveTodouble_MVM_NPT
+                'Call MoveTotheta_T_mul_PT
+                'Call MoveTotheta_T_mul_NPT
             End If
         Next
         Application.EnableEvents = True
